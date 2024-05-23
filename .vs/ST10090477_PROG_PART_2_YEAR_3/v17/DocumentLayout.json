@@ -1,0 +1,473 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\utlities\\websiteroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\utlities\\websiteroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\data\\repositories\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\data\\repositories\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\data\\interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\data\\interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_loginlayout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\areas\\employee\\views\\shared\\_loginlayout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\wwwroot\\home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\wwwroot\\home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\migrations\\20240523171708_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\migrations\\20240523171708_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|c:\\users\\binamra thapa\\source\\repos\\st10090477_prog_part_2_year_3\\st10090477_prog_part_2_year_3\\migrations\\20240523163400_first migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18597B5E-04D9-4EA2-AC24-BEBFC35332CE}|ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj|solutionrelative:st10090477_prog_part_2_year_3\\migrations\\20240523163400_first migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 261,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T21:13:41.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwC8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:53:39.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAJcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T17:43:18.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T22:42:06.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:01:20.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:00:44.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Models\\Product.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Models\\Product.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:03:29.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebsiteRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Utlities\\WebsiteRoles.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Utlities\\WebsiteRoles.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Utlities\\WebsiteRoles.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Utlities\\WebsiteRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:37:28.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:26:56.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T16:07:47.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T14:41:11.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Data\\Repositories\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Data\\Repositories\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Data\\Repositories\\DbInitializer.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Data\\Repositories\\DbInitializer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:41:35.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T14:38:55.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:59:02.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Program.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Program.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Program.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:30:48.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T17:53:50.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T21:12:25.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:23:07.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Data\\Interfaces\\IDbInitializer.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Data\\Interfaces\\IDbInitializer.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Data\\Interfaces\\IDbInitializer.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Data\\Interfaces\\IDbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:39:32.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T21:29:40.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ST10090477_PROG_PART_2_YEAR_3.csproj",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T16:22:52.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\appsettings.json",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\appsettings.json",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T16:28:42.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_LoginLayout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml.css",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml.css",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml.css",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Areas\\Employee\\Views\\Shared\\_LoginLayout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-23T21:16:41.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240523171708_Second Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523171708_Second Migration.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523171708_Second Migration.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523171708_Second Migration.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523171708_Second Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:17:08.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240523163400_First Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523163400_First Migration.cs",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523163400_First Migration.cs",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523163400_First Migration.cs",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Migrations\\20240523163400_First Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:34:00.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T14:41:11.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Home\\index.html",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Home\\index.html",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Home\\index.html",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Home\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-23T14:38:29.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ST10090477_PROG_PART_2_YEAR_3\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T14:58:22.242Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

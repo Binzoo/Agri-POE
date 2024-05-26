@@ -13,35 +13,33 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Data.Repositories
         private readonly RoleManager<IdentityRole> _roleManager;
         public DbInitializer(ApplicationDbContext applicationDbContext, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
-            _context = applicationDbContext; 
+            _context = applicationDbContext;
             _userManager = userManager;
             _roleManager = roleManager;
         }
 
-     
-        public async Task Initalize()
+
+        public void Initialize()
         {
-            if (!await _roleManager.RoleExistsAsync(WebsiteRoles.WebsiteEmployee))
+            if (!_roleManager.RoleExistsAsync(WebsiteRoles.WebsiteEmployee).GetAwaiter().GetResult())
             {
-                await _roleManager.CreateAsync(new IdentityRole(WebsiteRoles.WebsiteEmployee));
-                await _roleManager.CreateAsync(new IdentityRole(WebsiteRoles.WebsiteFarmer));
-                await _userManager.CreateAsync(new ApplicationUser
+                _roleManager.CreateAsync(new IdentityRole(WebsiteRoles.WebsiteEmployee)).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new IdentityRole(WebsiteRoles.WebsiteFarmer)).GetAwaiter().GetResult();
+                _userManager.CreateAsync(new ApplicationUser()
                 {
-                    UserName = "admin",
+                    UserName = "admin@gmail.com",
                     Email = "admin@gmail.com",
                     FirstName = "Super",
                     LastName = "Admin"
-                }, "Admin@123");
-            }
+                }, "Admin@0011").Wait();
 
-            var appUser = await _context.ApplicationUsers.FirstOrDefaultAsync(e => e.Email == "admin@gmail.com");
-            if (appUser != null)
-            {
-                await _userManager.AddToRoleAsync(appUser, WebsiteRoles.WebsiteEmployee);
+                var appUser = _context.ApplicationUsers!.FirstOrDefault(x => x.Email == "admin@gmail.com");
+                if (appUser != null)
+                {
+                    _userManager.AddToRoleAsync(appUser, WebsiteRoles.WebsiteEmployee).GetAwaiter().GetResult();
+                }
+                _context.SaveChanges();
             }
-
-            await _context.SaveChangesAsync();
         }
-
     }
 }

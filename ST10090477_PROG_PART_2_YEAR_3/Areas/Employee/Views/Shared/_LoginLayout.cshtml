@@ -19,16 +19,79 @@
     <!-- Custom styles for this template-->
     <link href="~/dashboard/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="~/Home/css/styles.css" rel="stylesheet" />
+
+    <style>
+        html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+
+        #para1 {
+            margin-top: 100px;
+        }
+
+    </style>
+
 </head>
+<body id="page-top" class="d-flex flex-column min-vh-100">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">Agri Energy Connect</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" asp-controller="Home" asp-action="AboutUs" asp-area="">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" asp-controller="Home" asp-action="Privacy" asp-area="">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<body class="bg-gradient-primary">
-
-    <div class="container">
-
+    <div class="container flex-grow-1" id="para1">
         @RenderBody()
-
     </div>
 
+    <footer class="bg-black text-center py-5 mt-auto">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; ST10090477 2024. All Rights Reserved.</div>
+                <a asp-controller="Home" asp-action="AboutUs">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a asp-controller="Home" asp-action="Privacy">About Us</a>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript-->
     <script src="~/dashboard/vendor/jquery/jquery.min.js"></script>
@@ -39,10 +102,13 @@
 
     <!-- Custom scripts for all pages-->
     <script src="~/dashboard/js/sb-admin-2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Home/js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     @await Component.InvokeAsync("Notyf")
     @await RenderSectionAsync("Scripts", required: false)
-
-
 </body>
+
+
 
 </html>

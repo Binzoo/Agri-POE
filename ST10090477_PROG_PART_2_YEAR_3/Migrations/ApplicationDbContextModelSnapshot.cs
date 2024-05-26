@@ -243,14 +243,14 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Migrations
                     b.Property<string>("ProductCategory")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductImage")
+                    b.Property<string>("ProductImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProductName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductProductionDate")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("ProductProductionDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("ProductId");
 

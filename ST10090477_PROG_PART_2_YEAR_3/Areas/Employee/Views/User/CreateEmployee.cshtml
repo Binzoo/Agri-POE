@@ -1,0 +1,40 @@
+﻿@model ST10090477_PROG_PART_2_YEAR_3.ViewModels.RegisterVM
+@{
+    ViewData["Title"] = "Create Employee";
+}
+<div class="container-fluid mx-auto">
+    <a asp-action="Index" asp-controller="User" class="btn btn-success mb-1">
+        <span class="d-flex align-items-center">
+            <i class="bi bi-arrow-bar-left"></i>
+            <span class="small">Go Back</span>
+        </span>
+    </a>
+
+
+    <div>
+        <h1>Add Employee</h1>
+    </div>
+    <form asp-action="CreateEmployee" asp-controller="User" method="post">
+        <div class="form-group">
+            <label asp-for="FirstName" class="control-label"></label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName" class="control-label"></label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Employee</button>
+    </form>
+</div>

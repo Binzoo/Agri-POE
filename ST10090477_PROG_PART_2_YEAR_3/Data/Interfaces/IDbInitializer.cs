@@ -2,6 +2,6 @@
 {
     public interface IDbInitializer
     {
-        Task Initalize();
+        void Initialize();
     }
 }

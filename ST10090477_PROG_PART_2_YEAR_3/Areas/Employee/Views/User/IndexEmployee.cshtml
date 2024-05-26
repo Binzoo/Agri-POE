@@ -1,0 +1,50 @@
+﻿@model List<ST10090477_PROG_PART_2_YEAR_3.ViewModels.UserVM>
+@{
+}
+<div class="container-fluid mx-auto">
+    <h1>All Employees Profies</h1>
+    <a class="btn btn-primary mb-1" asp-action="CreateEmployee" asp-controller="User">Add Employee</a>
+    <table class="table align-middle mb-0 bg-white" id="myTable">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in Model)
+            {
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <div class="ms-3">
+                                <p class="fw-bold mb-1">@data.FirstName</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">@data.LastName</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">@data.Email</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">@data.Role</p>
+                    </td>
+                    <td>
+                        <a type="button" class="btn btn-link btn-sm btn-rounded" asp-action="ResetPassword" asp-controller="User" asp-route-id="@data.Id">
+                            Edit Password
+                        </a>
+                    </td>
+                </tr>
+            }
+           
+        </tbody>
+    </table>
+
+
+
+</div>

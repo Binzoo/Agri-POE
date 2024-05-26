@@ -8,6 +8,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Controllers
     {
         public IActionResult Index()
         {
+
             return View();  
         }
 

@@ -7445,6 +7445,26 @@
       "PackagePath": "staticwebassets\\Home\\js\\scripts.js"
     },
     {
+      "Id": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Thumbnail\\15db9154-54b6-4063-8adb-8ba18a3e4f63_FarmerImage.png",
+      "PackagePath": "staticwebassets\\Thumbnail\\15db9154-54b6-4063-8adb-8ba18a3e4f63_FarmerImage.png"
+    },
+    {
+      "Id": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Thumbnail\\30880fcb-b19b-4c0b-a5f2-5ad83ec3c3b5_FarmerImage.png",
+      "PackagePath": "staticwebassets\\Thumbnail\\30880fcb-b19b-4c0b-a5f2-5ad83ec3c3b5_FarmerImage.png"
+    },
+    {
+      "Id": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Thumbnail\\517ed333-891a-493f-8948-9b88719242dd_spain.png",
+      "PackagePath": "staticwebassets\\Thumbnail\\517ed333-891a-493f-8948-9b88719242dd_spain.png"
+    },
+    {
+      "Id": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Thumbnail\\7846a227-e3bb-4355-871a-e7e29b324c47_FarmerImage.png",
+      "PackagePath": "staticwebassets\\Thumbnail\\7846a227-e3bb-4355-871a-e7e29b324c47_FarmerImage.png"
+    },
+    {
+      "Id": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\Thumbnail\\Thumbnail.png",
+      "PackagePath": "staticwebassets\\Thumbnail\\Thumbnail.png"
+    },
+    {
       "Id": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

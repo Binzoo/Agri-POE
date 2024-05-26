@@ -15,9 +15,15 @@ builder.Services.AddControllersWithViews();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
-builder.Services.AddIdentity<ApplicationUser, IdentityRole> ().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole> ()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
-builder.Services.AddNotyf(config => { config.DurationInSeconds = 10; config.IsDismissable = true; config.Position = NotyfPosition.TopRight;});
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IProduct, ProductRepository>();
+builder.Services.AddNotyf(config => { config.DurationInSeconds = 4; config.IsDismissable = true; config.Position = NotyfPosition.TopRight;});
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -37,14 +43,16 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseNotyf();
 
+app.UseNotyf();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 app.UseAuthentication();    
 app.UseAuthorization();
+
+
 
 app.MapControllerRoute(
     name: "area",
@@ -59,11 +67,11 @@ app.MapControllerRoute(
 app.Run();
 
 
-async void DataSeeding()
+void DataSeeding()
 {
     using(var scope = app.Services.CreateScope())
     {
         var DbInatalize = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
-        await DbInatalize.Initalize();
+        DbInatalize.Initialize();
     }
 }

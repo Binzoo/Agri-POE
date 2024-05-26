@@ -17,6 +17,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="~/Home/css/styles.css" rel="stylesheet" />
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-grow-1 {
+            flex-grow: 1;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+    </style>
 </head>
 <body id="page-top">
     <!-- Navigation-->
@@ -32,25 +56,23 @@
                     <li class="nav-item"><a class="nav-link me-lg-3" asp-controller="Home" asp-action="AboutUs">About Us</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
                 </ul>
-                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                <a href="/login" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
                     <span class="d-flex align-items-center">
-                        
                         <i class="bi bi-box-arrow-in-right me-2"></i>
                         <span class="small">Login</span>
                     </span>
-                </button>
+                </a>
             </div>
         </div>
     </nav>
     @RenderBody()
-    <footer class="bg-black text-center py-5">
+    <footer class="bg-black text-center py-5 mt-auto">
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div class="mb-2">&copy; ST10090477 2024. All Rights Reserved.</div>
                 <a asp-controller="Home" asp-action="AboutUs">Privacy</a>
                 <span class="mx-1">&middot;</span>
                 <a asp-controller="Home" asp-action="Privacy">About Us</a>
-              
             </div>
         </div>
     </footer>

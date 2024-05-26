@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ST10090477_PROG_PART_2_YEAR_3.ViewModels.CreateProductVM>
+@{
+    ViewData["Title"] = "Products of Specific User";
+}
+
+
+<div class="container-fluid mx-auto">
+    <h1>All Product</h1>
+    <a class="btn btn-success mb-1" asp-action="Index" asp-controller="Product">Go Back</a>
+    <table class="table align-middle mb-0 bg-white" id="myTable">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Production Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in Model)
+            {
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <div class="ms-3">
+                                <img class="img-fluid" src="~/Thumbnail/@data.ProductImageUrl" alt="@data.ProductName" style="max-width: 100px; height: auto;">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">@data.ProductName</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">@data.ProductCategory</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">@data.ProductProductionDate</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+</div>

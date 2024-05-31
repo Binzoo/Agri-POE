@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\ST10090477_PROG_PART_2_YEAR_3.props" />
+  <Import Project="../build/ST10090477_PROG_PART_2_YEAR_3.props" />
 </Project>

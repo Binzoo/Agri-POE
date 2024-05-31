@@ -30736,6 +30736,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ST10090477_PROG_PART_2_YEAR_3.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\00fa9a2c-aff1-4970-87da-f8130f6fe2b7_15317829_362109210810458_8540102772834154091_n.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ST10090477_PROG_PART_2_YEAR_3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ST10090477_PROG_PART_2_YEAR_3</BasePath>
+      <RelativePath>Thumbnail/00fa9a2c-aff1-4970-87da-f8130f6fe2b7_15317829_362109210810458_8540102772834154091_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\00fa9a2c-aff1-4970-87da-f8130f6fe2b7_15317829_362109210810458_8540102772834154091_n.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\0388b9fd-3ce1-43e6-8bcd-2337ee6234fa_15317829_362109210810458_8540102772834154091_n.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ST10090477_PROG_PART_2_YEAR_3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ST10090477_PROG_PART_2_YEAR_3</BasePath>
+      <RelativePath>Thumbnail/0388b9fd-3ce1-43e6-8bcd-2337ee6234fa_15317829_362109210810458_8540102772834154091_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\0388b9fd-3ce1-43e6-8bcd-2337ee6234fa_15317829_362109210810458_8540102772834154091_n.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\15db9154-54b6-4063-8adb-8ba18a3e4f63_FarmerImage.png))">
       <SourceType>Package</SourceType>
       <SourceId>ST10090477_PROG_PART_2_YEAR_3</SourceId>
@@ -30767,6 +30799,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\30880fcb-b19b-4c0b-a5f2-5ad83ec3c3b5_FarmerImage.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\35080ec5-b492-42c9-9cab-b3daca827292_183939438_1389595504728485_5295735211694376721_n.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ST10090477_PROG_PART_2_YEAR_3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ST10090477_PROG_PART_2_YEAR_3</BasePath>
+      <RelativePath>Thumbnail/35080ec5-b492-42c9-9cab-b3daca827292_183939438_1389595504728485_5295735211694376721_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\35080ec5-b492-42c9-9cab-b3daca827292_183939438_1389595504728485_5295735211694376721_n.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Thumbnail\517ed333-891a-493f-8948-9b88719242dd_spain.png))">
       <SourceType>Package</SourceType>

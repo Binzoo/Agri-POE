@@ -17,111 +17,119 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ST10090477_PROG_PART_2_YEAR_3
 build_property.RootNamespace = ST10090477_PROG_PART_2_YEAR_3
-build_property.ProjectDir = C:\Users\Binamra Thapa\source\repos\ST10090477_PROG_PART_2_YEAR_3\ST10090477_PROG_PART_2_YEAR_3\
+build_property.ProjectDir = /Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Binamra Thapa\source\repos\ST10090477_PROG_PART_2_YEAR_3\ST10090477_PROG_PART_2_YEAR_3
+build_property.MSBuildProjectDirectory = /Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/ViewProductListing.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdFxWaWV3UHJvZHVjdExpc3RpbmcuY3NodG1s
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Product/ViewProductListing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvUHJvZHVjdC9WaWV3UHJvZHVjdExpc3RpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/AccessDenied.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/CreateEmployee.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxDcmVhdGVFbXBsb3llZS5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/CreateFarmer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxDcmVhdGVGYXJtZXIuY3NodG1s
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9BY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/CreateEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9DcmVhdGVFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/IndexEmployee.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxJbmRleEVtcGxveWVlLmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/CreateFarmer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9DcmVhdGVGYXJtZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/IndexFarmer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxJbmRleEZhcm1lci5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/IndexEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9JbmRleEVtcGxveWVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/ResetPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcVXNlclxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/IndexFarmer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9JbmRleEZhcm1lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/User/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvVXNlci9SZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/Home/AboutUs.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-77ip5qwair
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/_LoginLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-k1i6wvy986
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Binamra Thapa/source/repos/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-mwqm235jhm
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-auw3plfz0x
+
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Areas/Employee/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWUvVmlld3MvU2hhcmVkL19Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-sfvg9los9a
+
+[/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t2ij9okk0h

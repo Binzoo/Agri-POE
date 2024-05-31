@@ -1,0 +1,59 @@
+﻿@model ST10090477_PROG_PART_2_YEAR_3.ViewModels.CreateProductVM
+@{
+    ViewData["Title"] = "Delete Product";
+}
+<div class="container-fluid mx-auto">
+    <a asp-action="Index" asp-controller="Product" class="btn btn-success mb-1">
+        <span class="d-flex align-items-center">
+            <i class="bi bi-arrow-bar-left"></i>
+            <span class="small">Go Back</span>
+        </span>
+    </a>
+    <div>
+        <h1>Delete Product</h1>
+    </div>
+    <form asp-action="Delete" asp-controller="Product" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="ProductId" value="@Model.ProductId">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="mb-3">
+                    <label asp-for="ProductName" class="form-label">Product Name</label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ProductCategory" class="form-label">Product Category</label>
+                    <input asp-for="ProductCategory" class="form-control" />
+                    <span asp-validation-for="ProductCategory" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ProductProductionDate" class="form-label">Product Production Date</label>
+                    <input type="date" asp-for="ProductProductionDate" class="form-control" />
+                    <span asp-validation-for="ProductProductionDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="mb-3 text-center">
+                    <img src="~/Thumbnail/@Model.ProductImageUrl" class="img-fluid" id="thumbnail" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Thumbnail" class="form-label">Thumbnail</label>
+                    <input type="file" asp-for="Thumbnail" class="form-control" />
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-danger w-100">Delete Product</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.querySelector("input[type='file']").addEventListener("change", function () {
+            var fileName = this.value.split("\\").pop();
+            this.nextElementSibling.classList.add("selected");
+            this.nextElementSibling.innerHTML = fileName;
+            document.getElementById('thumbnail').src = window.URL.createObjectURL(this.files[0]);
+        });
+    </script>
+}

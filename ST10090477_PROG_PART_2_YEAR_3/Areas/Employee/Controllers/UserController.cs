@@ -15,7 +15,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepository;
-        private readonly INotyfService _notyfService; 
+        private readonly INotyfService _notyfService;
 
         public UserController(INotyfService notyfService, IUserRepository userRepository)
         {
@@ -23,7 +23,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
             _userRepository = userRepository;
         }
 
-        [Authorize(Roles ="Employee")]
+        [Authorize(Roles = "Employee")]
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -36,7 +36,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
         [HttpGet]
         public async Task<IActionResult> IndexFarmer()
         {
-            var users =  await _userRepository.GetAllUserWithRoleAsync("Farmer"); ;
+            var users = await _userRepository.GetAllUserWithRoleAsync("Farmer"); ;
 
             return View(users);
         }
@@ -125,7 +125,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
 
 
 
-        [HttpPost("Login")]     
+        [HttpPost("Login")]
         public async Task<IActionResult> Login(LoginVM vm)
         {
             if (!ModelState.IsValid)
@@ -134,7 +134,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
             }
 
             var (success, message) = await _userRepository.LoginAsync(vm.Email, vm.Password, vm.RememberMe);
-            if(!success)
+            if (!success)
             {
                 _notyfService.Error(message);
                 return View(vm);
@@ -156,7 +156,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
         [HttpGet]
         public async Task<IActionResult> ResetPassword(string id)
         {
-            var userExist = await _userRepository.FindUserById(id); 
+            var userExist = await _userRepository.FindUserById(id);
             if (userExist == null)
             {
                 _notyfService.Error("User does not exist");
@@ -166,7 +166,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
             var resetPasswordVm = new ResetPasswrodVM()
             {
                 Id = userExist.Id,
-                Email = userExist.Email, 
+                Email = userExist.Email,
             };
 
             return View(resetPasswordVm);
@@ -182,7 +182,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Areas.Employee.Controllers
             }
 
             var (success, message) = await _userRepository.ResetPasswordAsync(vm);
-            
+
             if (success)
             {
                 _notyfService.Success(message);

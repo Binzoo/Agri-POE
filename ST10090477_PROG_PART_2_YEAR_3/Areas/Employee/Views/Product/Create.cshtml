@@ -10,48 +10,38 @@
         </span>
     </a>
 
-
     <div>
         <h1>Create Product</h1>
     </div>
     <form asp-action="Create" asp-controller="Product" method="post" enctype="multipart/form-data">
-
         <div class="row">
-
-
-            <div class="col-9">
-                <div class="form-group">
-                    <label asp-for="ProductName" class="control-label">Product Name</label>
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="mb-3">
+                    <label asp-for="ProductName" class="form-label">Product Name</label>
                     <input asp-for="ProductName" class="form-control" />
                     <span asp-validation-for="ProductName" class="text-danger"></span>
                 </div>
-                <div class="form-group">
-                    <label asp-for="ProductCategory" class="control-label"> Product Category</label>
+                <div class="mb-3">
+                    <label asp-for="ProductCategory" class="form-label">Product Category</label>
                     <input asp-for="ProductCategory" class="form-control" />
                     <span asp-validation-for="ProductCategory" class="text-danger"></span>
                 </div>
-                <div class="form-group">
-                    <label asp-for="ProductProductionDate" class="control-label">Product Production Date</label>
+                <div class="mb-3">
+                    <label asp-for="ProductProductionDate" class="form-label">Product Production Date</label>
                     <input type="date" asp-for="ProductProductionDate" class="form-control" />
                     <span asp-validation-for="ProductProductionDate" class="text-danger"></span>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="mb-2">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="mb-3 text-center">
                     <img src="~/Thumbnail/Thumbnail.png" class="img-fluid" id="thumbnail" />
                 </div>
-                <div class="mb-2">
-                    <label>Thumbnail</label>
-                    <input type="file" asp-for="Thumbnail" class="custom-file" />
-                   
+                <div class="mb-3">
+                    <label class="form-label">Thumbnail</label>
+                    <input type="file" asp-for="Thumbnail" class="form-control" />
                 </div>
             </div>
-          
         </div>
-
-       
-      
-      
         <button type="submit" class="btn btn-primary w-100">Create Product</button>
     </form>
 </div>
@@ -59,10 +49,11 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
     <script>
-        $(".custom-file").on("change", function () {
-            var fileName = $(this).val().split("\\").pop();
-            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-            document.getElementById('thumbnail').src = window.URL.createObjectURL(this.files[0])
+        document.querySelector(".custom-file input").addEventListener("change", function () {
+            var fileName = this.value.split("\\").pop();
+            this.nextElementSibling.classList.add("selected");
+            this.nextElementSibling.innerHTML = fileName;
+            document.getElementById('thumbnail').src = window.URL.createObjectURL(this.files[0]);
         });
     </script>
 }

@@ -24,7 +24,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Data.Repositories
             _roleManager = roleManager;
             _webHostEnvironment = webHostEnvironment;
         }
-       
+
         public async Task<(bool success, string message)> CreateProduct(CreateProductVM createProductVM, ClaimsPrincipal user)
         {
             var userId = user.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -45,19 +45,80 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Data.Repositories
             return (true, "Prodcut Created Successfully.");
         }
 
+
+
+        public async Task<CreateProductVM> GetProductById(int id)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(e => e.ProductId == id);
+            var productVm = new CreateProductVM()
+            {
+                ProductId = product.ProductId,
+                ProductName = product.ProductName,
+                ProductCategory = product.ProductCategory,
+                ProductProductionDate = product.ProductProductionDate,
+                ProductImageUrl = product.ProductImageUrl,
+            };
+            return productVm;
+        }
+
+        public async Task<(bool success, string message)> EditProduct(CreateProductVM vm)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(e => e.ProductId == vm.ProductId);
+
+            if (product == null)
+            {
+                return (false, "Product does not exist");
+            }
+
+            product.ProductName = vm.ProductName;
+            product.ProductCategory = vm.ProductCategory;
+            product.ProductProductionDate = vm.ProductProductionDate;
+            if (vm.Thumbnail != null)
+            {
+                product.ProductImageUrl = UploadImage(vm.Thumbnail);
+            }
+
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+
+            return (true, "Product has been updated Successfully.");
+        }
+
+
+
+        public async Task<(bool success, string message)> DeleteProduct(int id)
+        {
+            var product = await _context.Products.FirstAsync(e => e.ProductId == id);
+            if (product != null)
+            {
+                if (!string.IsNullOrEmpty(product.ProductImageUrl))
+                {
+                    DeleteImage(product.ProductImageUrl);
+                }
+                _context.Products.Remove(product);
+                await _context.SaveChangesAsync();
+                return (true, "Product Deleted Successfully");
+            }
+            else
+            {
+                return (false, "Product cannot be deleted.");
+            }
+        }
+
         public async Task<List<CreateProductVM>> GetAllProductByIDAsync(ClaimsPrincipal user)
         {
             var userId = user.FindFirstValue(ClaimTypes.NameIdentifier);
-            if(userId != null)
+            if (userId != null)
             {
-                var allProductOfUser = await  _context.Products.Where(e => e.ApplicationUserId == userId).
+                var allProductOfUser = await _context.Products.Where(e => e.ApplicationUserId == userId).
                     Select(p => new CreateProductVM
                     {
+                        ProductId = p.ProductId,
                         ProductName = p.ProductName,
-                        ProductCategory = p.ProductCategory,    
-                        ProductProductionDate = p.ProductProductionDate, 
+                        ProductCategory = p.ProductCategory,
+                        ProductProductionDate = p.ProductProductionDate,
                         ProductImageUrl = p.ProductImageUrl
-                        
+
                     }).ToListAsync();
                 return allProductOfUser;
             }
@@ -69,6 +130,7 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Data.Repositories
         {
             var products = await _context.Products.Where(e => e.ApplicationUserId == id).Select(p => new CreateProductVM
             {
+                ProductId = p.ProductId,
                 ProductName = p.ProductName,
                 ProductCategory = p.ProductCategory,
                 ProductProductionDate = p.ProductProductionDate,
@@ -77,6 +139,8 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Data.Repositories
             }).ToListAsync();
             return products;
         }
+
+
 
         private string UploadImage(IFormFile file)
         {
@@ -89,6 +153,30 @@ namespace ST10090477_PROG_PART_2_YEAR_3.Data.Repositories
                 file.CopyTo(fileStream);
             }
             return uniqueFileName;
+        }
+
+        private void DeleteImage(string fileName)
+        {
+            var filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Thumbnail", fileName);
+            if (System.IO.File.Exists(filePath))
+            {
+                System.IO.File.Delete(filePath);
+            }
+        }
+
+        public async Task<List<CreateProductVM>> GetAllProduct()
+        {
+            var products = await _context.Products.Select(p => new CreateProductVM
+            {
+                ProductId = p.ProductId,
+                ProductName = p.ProductName,
+                ProductCategory = p.ProductCategory,
+                ProductProductionDate = p.ProductProductionDate,
+                ProductImageUrl = p.ProductImageUrl
+
+            }).ToListAsync();
+
+            return products;
         }
     }
 }

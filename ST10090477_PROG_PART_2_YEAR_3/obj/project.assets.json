@@ -8061,26 +8061,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Binamra Thapa\\.nuget\\packages\\": {}
+    "/Users/binamrathapa/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj",
+      "projectUniqueName": "/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3.csproj",
       "projectName": "ST10090477_PROG_PART_2_YEAR_3",
-      "projectPath": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3.csproj",
-      "packagesPath": "C:\\Users\\Binamra Thapa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Binamra Thapa\\source\\repos\\ST10090477_PROG_PART_2_YEAR_3\\ST10090477_PROG_PART_2_YEAR_3\\obj\\",
+      "projectPath": "/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/ST10090477_PROG_PART_2_YEAR_3.csproj",
+      "packagesPath": "/Users/binamrathapa/.nuget/packages/",
+      "outputPath": "/Users/binamrathapa/Desktop/PROGPART2/Agri-POE/ST10090477_PROG_PART_2_YEAR_3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Binamra Thapa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/binamrathapa/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8150,7 +8148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
